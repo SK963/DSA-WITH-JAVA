@@ -1,6 +1,5 @@
 Main.java
 input.txt
 output.txt
-PEP Questions.md
 # Ignore all .log files in all directories
 **/*.class
