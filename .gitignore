@@ -1,5 +1,19 @@
-Main.java
-input.txt
-output.txt
-# Ignore all .log files in all directories
+
+# Ignore all files in the main directory
+/*
+# Except
+!Readme.md
+
+# Do not ignore all subdirectories and their contents
+!/*/
+
+# Do not ignore the .gitignore file
+!/.gitignore
+
+# Include all hidden files (starting with a dot) in all subdirectories
+**/.*
+
+# Ignore all .class files in all directories
 **/*.class
+
+
