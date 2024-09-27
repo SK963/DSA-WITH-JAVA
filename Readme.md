@@ -1,40 +1,76 @@
+<!-- Last Date of Count : 23-09-24 -->
+<!-- LEETCODE Qs count JAVA :  32 -->
+<!-- GFG Qs count : 25 -->
+<!-- CHEETSHEET COUNT : 46 -->
 # Language (JAVA) :
 ## [OOPS](./0.10.OOPS/)
-- [Abstract Classes](./0.10.OOPS/1.%20Abstract%20Classes/)
-- [Interfaces](./0.10.OOPS/2.%20Interfaces/)
-- [Nested classes](./0.10.OOPS/03.%20Nested%20Classes/)
-- [Lambda Expressions and Method Referencing](./0.10.OOPS/04.%20Lambda/)
--[Enums](0.10.OOPS/Enums/)
+### [Abstract classes](./0.10.OOPS/1.%20Abstract%20Classes/)
+### [Interfaces](./0.10.OOPS/2.%20Interfaces/)
+### [Nested classes ](./0.10.OOPS/03.%20Nested%20Classes/)
+### [Lambda Expressions and Method Referencing](./0.10.OOPS/04.%20Lambda/)
+### [Enums](./0.10.OOPS/Enums/)
+
 ## [Generics](./0.12.Generics/)
-## [Collection Framework](./0.13.Collections/)
-- [Lists](./0.13.Collections/List/)
-- [Queue](./0.13.Collections/Queue/)
-- [Set](./0.13.Collections/Set/)
-- [Map](./0.13.Collections/Map/)
-- [Arrays and Collections classes](./0.13.Collections/Utilities/Collections%20&%20Arrays/) 
-- [Comparators and Comparables Interfaces](./0.13.Collections/Utilities/Comparator%20and%20Comparables/)
-- [Cursors](./0.13.Collections/Utilities/cursors/)
-- [util.function](./0.13.Collections/Utilities/Functional%20Interfaces/)
-
-
-## Strings
-- String , string buffer and String Builder classes and function .
 
 ## Important Classes
-- Wrapper Classes :
-- Math Class and its function :
+Wrapper Classes :
+Math Class and its function :
+
+
+## [Collections](./0.13.Collections/) (Java Collection Framework)
+
+### [Lists](./0.13.Collections/List/)
+- [List](./0.13.Collections/List/ListInterfaceExample.java)
+- [ArrayList](./0.13.Collections/List/ArrayListExample.java)
+- [LinkedList](./0.13.Collections/List/LinkedListExample.java)
+- [Vector ](./0.13.Collections/List/VectorExample.java)
+- [Stack](./0.13.Collections/List/StackExample.java)
+### [Queues](./0.13.Collections/Queue/)
+- [Queue](./0.13.Collections/Queue/)
+- [ArrayDeque](./0.13.Collections/Queue/)
+- [PriorityQueue](./0.13.Collections/Queue/)
+- [Linked List](./0.13.Collections/Queue/)
+
+### [Sets](./0.13.Collections/Set/)
+- [Set(I)](./0.13.Collections/Set/SetExample.java)
+- [Hashset(C)](./0.13.Collections/Set/HashSetExample.java)
+- [Navigableset(I)](./0.13.Collections/Set/NavigableSetExample.java)
+- [Sortedset(I)](./0.13.Collections/Set/SortedSetExample.java)
+- [Treeset(C)](./0.13.Collections/Set/TreeSetExample.java)
+
+### [Maps](./0.13.Collections/Map/)
+- Map
+- Hashmap
+- LinkedHashmap
+- Sortedmap
+- Treemap
+- WeakHashmap
+- IdentityHashmap
+- Hashtable
+  - Dictionary class
+  - properties
+### [Enums](./0.13.Collections/Enums/)
+- Enum
+- EnumSet
+- EnumMap
+
+### [Utilities](./0.13.Collections/Utilities/)
+Arrays
+Collections 
+Comparators and Comparables Interfaces
+Util.function : Functional Interfaces
 
 ## Advance Java
 ### Date and Time Classes
-### MultoThreading
+### MultiThreading
 ### Exception Handling
 ### Input Output & File Handling
 
 
-
 # Data Structures
 ## Part1 : [Arrays ,Strings , Matrices , LL , Stack , Queue , Hashing , Sets , Maps ]
-### Arrays 
+### [Arrays](./01.Arrays/) 
+<!-- Qs/Total :  13/42   -->
 #### Easy
 - [x] [Largest Element in an Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1?) : [Code](./01.Arrays/LargestElement.java) : Easy
 - [x] [Second Largest Element in an Array without sorting](https://www.geeksforgeeks.org/problems/second-largest3735/1) : [Code](./01.Arrays/SecondLargest.java) : Easy
@@ -45,8 +81,8 @@
 - [x] [Move Zeros to end](https://leetcode.com/problems/move-zeroes/) : [Code](./01.Arrays/MoveZeroes.java) : Easy  <!-- 25-09-2024 -->
 - [x] [Find the Union and intersection of Sorted Arrays](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1) : [Code](./01.Arrays/UnionandIntersectionOfTwoSortedArrays.java) : Medium  <!-- 25-09-2024 -->
 - [x] [Find missing number in an array](https://leetcode.com/problems/missing-number/) : [Code](./01.Arrays/) : Easy <!-- 26-09-2024 -->
-- [ ] [Maximum Consecutive Ones]() : [Code](./01.Arrays/) : Easy
-- [ ] [Find the number that appears once, and other numbers twice.]() : [Code](./01.Arrays/) : Medium
+- [x] [Maximum Consecutive Ones]() : [Code](./01.Arrays/MaxConsecutiveOnes.java) : Easy
+- [x] [Find the number that appears once, and other numbers twice.]() : [Code](./01.Arrays/SingleNumber.java) : Medium
 - [ ] [Longest subarray with given sum K(positives)]() : [Code](./01.Arrays/) : Medium
 - [ ] [Longest subarray with sum K (Positives + Negatives)]() : [Code](./01.Arrays/) : Easy
 #### Medium
@@ -84,10 +120,14 @@
 - [ ] [Reverse Pairs]() : [Code](./01.Arrays/) : Hard
 - [ ] [Maximum Product Subarray]() : [Code](./01.Arrays/) : 
 
+
 ### Strings 
+#### Implementation
+- [ ] String , string buffer and String Builder classes and function .
+
 
 #### Problems :
-- Check if a word is a Palindrome or not
+- [ ] Check if a word is a Palindrome or not
 
 
 
@@ -96,107 +136,143 @@
 #### Implementation & Basic Operations
 
 #### Problems
-- [Spiral Matrix][2024/06/29 Question 2]
-- [Rat in the maze problem][2024/07/02 Question 3]
-- [The k weakest rows in a matrix][2024/07/09 Question 1]
-- [Rotten Oranges][2024/07/13 Question 6]
 
 ### Linked List
 #### Implementation : 
-- CLL 
-- HLL 
-- DLL 
+- [ ] CLL 
+- [ ] HLL 
+- [ ] DLL 
   
 #### Problems
 
 ### STACK
 ##### Implementation :
-- using LL
-- arraylist 
-- array 
-- JCF  
-- stack using  queue 
+- [ ] using LL
+- [ ] arraylist 
+- [ ] array 
+- [ ] JCF  
+- [ ] stack using  queue 
  
 
   
 
 ### QUEUE
 #### implementation 
-- using array 
-- LinkedList
-- arraylist 
-- JCF class 
-- queue using stack 
+- [ ] using array 
+- [ ] LinkedList
+- [ ] arraylist 
+- [ ] JCF class 
+- [ ] queue using stack 
 
 
+### Hasing / Dictionary
+
+### Sets
+
+### Maps
+
+
+
+## Part2 : [Trees , Heaps , Graph ]
 ### TREE
-#### Implementation : 
+#### Binary Trees 
+Easy
+- [ ] [Binary Tree Representation in Java]() : [Code](./07.Tree/Binary%20Tree/Representation.java) : Easy
+- [x] [Preorder Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/RecursiveTraversal.java) : Easy
+- [x] [Inorder Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/RecursiveTraversal.java) : Easy
+- [x] [Post-order Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/RecursiveTraversal.java) : Easy
+- [x] [Level order Traversal]() : [Code](./07.Tree/Binary%20Tree/LevelOderTraversal.java) : Easy
+- [x] [Iterative Preorder Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/InterativeTraversal.java) : Easy
+- [x] [Iterative Inorder Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/InterativeTraversal.java) : Easy
+- [x] [Post-order Traversal of Binary Tree using 2 stack]() : [Code](./07.Tree/Binary%20Tree/InterativeTraversal.java) : Easy
+- [x] [Post-order Traversal of Binary Tree using 1 stack]() : [Code](./07.Tree/Binary%20Tree/InterativeTraversal.java) : Medium
 
-Traversals : 
-- InOrder  
-- Preorder 
-- PostOrder 
-#### Problems : 
+Medium
 
-Binary Tree
-- [Level Traversal][2024/06/24 Question 1]
-- [Maximum Depth][2024/06/24 Question 2]
-- Height of a tree <!--[2024/06/24 Question 3]-->
-- [Count of all nodes][2024/06/24 Question 4]
-- [Sum of data of all nodes][2024/06/24 Question 5]
-- [Diameter of the tree][2024/06/24 Question 6]
-- [Existance of a subtree within a tree][2024/06/24 Question 7]
-- [Top-view][2024/06/24 Question 8]
-- [Nodes at the Kth Level][2024/06/25 Question 1]
-- [Lowest common Ancestor][2024/06/25 Question 2]
-- [Minimum Distance Between Nodes][2024/06/25 Question 3]
-- [Kth ancestor of a Node][2024/06/25 Question 4]
-- [Transform to Sum Tree][2024/06/26 Question 1]
-- [Root to Leaf Path][2024/06/27 Question 1]
-- [Mirror Tree][2024/06/27 Question 2]
-- [Get elements in given range][2024/06/27 Question 3]
-- [Normal BST to Balanced BST][2024/06/27 Question 4]
-- [Sorted Array to BST][2024/06/28 Question 1]
-- [Largest BST in a Binary Tree][2024/06/28 Question 2]
-- [Number of ways to reorder an array to get the same bst][2024/06/28 Question 3]
+- [x] [Height of a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/HeightBinaryTree.java) : Medium
+- [x] [Check if the Binary tree is height-balanced or not]() : [Code](./07.Tree/Binary%20Tree/BalancedBinaryTree.java) : Medium
+- [x] [Diameter of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/DiameterBinaryTree.java) : Medium
+- [x] [Maximum path sum]() : [Code](./07.Tree/Binary%20Tree/MaximumPathSum.java) : Hard
+- [x] [Check if two trees are identical or not]() : [Code](./07.Tree/Binary%20Tree/IdenticalTree.java) : Medium
+- [x] [Zig Zag Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/ZigZagTraversal.java) : Easy
+- [x] [Boundary Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/BoundaryTraversal.java) : Medium
+- [x] [Vertical Order Traversal of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/VerticalTraversal.java) : Easy
+- [x] [Top View of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/SideViews.java) : Easy
+- [x] [Bottom View of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/SideViews.java) : Medium
+- [x] [Right/Left View of Binary Tree]() : [Code](./07.Tree/Binary%20Tree/SideViews.java) : Medium
+- [x] [Symmetric Binary Tree]() : [Code](./07.Tree/Binary%20Tree/SymmetricTree.java) : Medium
 
-
-
-#### Problems
-
-
+Hard
+<!-- <!-- 	 -->
+- [x] [All Possible Path in a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/AllPossiblePaths.java) : Medium
+- [x] [Root to Node Path in Binary Tree]() : [Code](./07.Tree/Binary%20Tree/RootToNodePath.java) : Medium
+- [ ] [LCA in Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Maximum width of a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Check for Children Sum Property]() : [Code](./07.Tree/Binary%20Tree/) : Hard
+- [ ] [Print all the Nodes at a distance of K in a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Minimum time taken to BURN the Binary Tree from a Node]() : [Code](./07.Tree/Binary%20Tree/) : Hard
+- [ ] [Count total Nodes in a COMPLETE Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Requirements needed to construct a Unique Binary Tree | Theory]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Construct Binary Tree from inorder and preorder]() : [Code](./07.Tree/Binary%20Tree/) : Hard
+- [ ] [Construct the Binary Tree from Postorder and Inorder Traversal]() : [Code](./07.Tree/Binary%20Tree/) : Hard
+- [ ] [Serialize and deserialize Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Hard
+- [ ] [Morris Preorder Traversal of a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Morris Inorder Traversal of a Binary Tree]() : [Code](./07.Tree/Binary%20Tree/) : Medium
+- [ ] [Flatten Binary Tree to LinkedList]() : [Code](./07.Tree/Binary%20Tree/) : Hard 
 
 
 
 ### Heap
 #### Implementation & Basic Operations
-- Heapify
-- Deleting from a Min-Heap
-- Min Heap
-- Max Heap
-- Using  Priority Queues as heap
+- [ ] Heapify
+- [ ] Deleting from a Min-Heap
+- [ ] Min Heap
+- [ ] Max Heap
+- [ ] Using  Priority Queues as heap
 
 ### Graph
 #### Implementation and Basic Operations
-- Representations
-  - theory of Adjacency Matrix
-  - theory of Edge List
-  - theory of Implicit Graph
-- Traversal 
-  - BFS
-  - DFS
+- [ ] [Graph and Types]() : [Code](./08.Graph/) : Easy
+- [ ] [Graph Representation | C++]() : [Code](./08.Graph/) : Easy
+- [ ] [Graph Representation | Java]() : [Code](./08.Graph/) : Easy
+- [ ] [Connected Components | Logic Explanation]() : [Code](./08.Graph/) : Hard
+- [ ] [BFS]() : [Code](./08.Graph/) : Medium
+- [ ] [DFS]() : [Code](./08.Graph/) : Hard
+#### BFS/DFS Problems
+- [ ] [Number of provinces (leetcode)]() : [Code](./08.Graph/) : Medium
+- [ ] [Connected Components Problem in Matrix]() : [Code](./08.Graph/) : Hard
+- [ ] [Rotten Oranges]() : [Code](./08.Graph/) : Medium
+- [ ] [Flood fill]() : [Code](./08.Graph/) : Hard
+- [ ] [Cycle Detection in unirected Graph (bfs)]() : [Code](./08.Graph/) : Hard
+- [ ] [Cycle Detection in undirected Graph (dfs)]() : [Code](./08.Graph/) : Hard
+- [ ] [0/1 Matrix (Bfs Problem)]() : [Code](./08.Graph/) : Medium
+- [ ] [Surrounded Regions (dfs)]() : [Code](./08.Graph/) : Hard
+- [ ] [Number of Enclaves [flood fill implementation - multisource]]() : [Code](./08.Graph/) : Hard
+- [ ] [Word ladder - 1]() : [Code](./08.Graph/) : Hard
+- [ ] [Word ladder - 2]() : [Code](./08.Graph/) : Hard
+- [ ] [Number of Distinct Islands [dfs multisource]]() : [Code](./08.Graph/) : Hard
+- [ ] [Bipartite Graph (DFS)]() : [Code](./08.Graph/) : Medium
+- [ ] [Cycle Detection in Directed Graph (DFS)]() : [Code](./08.Graph/) : Hard
+#### Topo Sort and Problems
+- [ ] [Topo Sort]() : [Code](./08.Graph/) : Hard
+- [ ] [Kahn's Algorithm]() : [Code](./08.Graph/) : Hard
+- [ ] [Cycle Detection in Directed Graph (BFS)]() : [Code](./08.Graph/) : Hard
+- [ ] [Course Schedule - I]() : [Code](./08.Graph/) : Hard
+- [ ] [Course Schedule - II]() : [Code](./08.Graph/) : Hard
+- [ ] [Find eventual safe states]() : [Code](./08.Graph/) : Hard
+- [ ] [Alien dictionary]() : [Code](./08.Graph/) : Hard
 
 #### Problems
 
-
+## Part 3 : [Trie , Suffix array , Segement Tree , Others]
 ### Trie / Prefix Array
-#### Problem
-  - [Phone directory][2024/07/13 Question 4]
-  - [Print Anagrams Together][2024/07/13 Question 5]
-  - [Implement Trie (Prefix Tree)][2024/07/05 Question 1]
-  - [Word Break][2024/07/05 Question 2]
-  - [Shortest Unique prefix for every word][2024/07/05 Question 4]
-
+- [ ] [Implement TRIE | INSERT | SEARCH | STARTSWITH]() : [Code](./09.Trie/) : Hard
+- [ ] [Implement Trie - 2 (Prefix Tree)]() : [Code](./09.Trie/) : Hard
+- [ ] [Longest String with All Prefixes]() : [Code](./09.Trie/) : Medium
+- [ ] [Number of Distinct Substrings in a String]() : [Code](./09.Trie/) : Hard
+- [ ] [Bit PreRequisites for TRIE Problems]() : [Code](./09.Trie/) : Hard
+- [ ] [Maximum XOR of two numbers in an array]() : [Code](./09.Trie/) : Medium
+- [ ] [Maximum XOR With an Element From Array]() : [Code](./09.Trie/) : Hard
 
 ### Suffix Arry - Tree
 
@@ -205,143 +281,58 @@ Binary Tree
 
 
 
-## Algorithms 
+# Algorithms 
+## Part1 : [Searching , Sorting , Sliding Window , Two Pointers , Recurrsion]
+### Sorting
+- [ ] [Selection Sort]() : [Code](./11.Sorting/) : Easy
+- [ ] [Bubble Sort]() : [Code](./11.Sorting/) : Easy
+- [ ] [Insertion Sort]() : [Code](./11.Sorting/) : Easy
+- [ ] [Merge Sort]() : [Code](./11.Sorting/) : Medium
+- [ ] [Recursive Bubble Sort]() : [Code](./11.Sorting/) : Easy
+- [ ] [Recursive Insertion Sort]() : [Code](./11.Sorting/) : Easy
+- [ ] [Quick Sort]() : [Code](./11.Sorting/) : Easy
 
-### Searching  & sorting
+#### Searching
+- [ ] Linear Search Implemetation (raw and using library)
+- [ ] Linear Search Implemetation (using library)
+- [ ] Binary Search Implemetation (raw and using library)
+- [ ] Binary Search Implemetation (using library)
 
 
 
-- [Sort Colors][2024/06/26 Question 2]
-- [Sort an Array in O(nlog(n))][2024/06/26 Question 3]
-- [Insertion Sort][2024/06/26 Question 4]
-- [Segregate 0s and 1s][2024/06/26 Question 5]
-- [Sort 0s 1s and 2s][2024/06/26 Question 6]
-
-
-- Linear (raw and using library)
-- Binary  (raw and using library)
-
-
+### Sliding Window and 2 Pointers 
 
 ### Recurssion
-- Introduction to recursion
-- Find the sum of numbers from 1 till n
-- Factorial of n
-- Find the product of m^n^
+- [ ] Introduction to recursion
+- [ ] Find the sum of numbers from 1 till n
+- [ ] Factorial of n
+- [ ] Find the product of m^n^
 
+
+## Part2 : [D&C , Greedy Method , DP . Backtracking , Branch and Bound]
 
 ### Divide and Conquer
-- [0-1 Knapsack Problem][2024/07/09 Question 4]
+- [ ] [0-1 Knapsack Problem][2024/07/09 Question 4]
 
 ### Greedy Method
 
 ### Dynamic Programming
 ### Backtracking 
-#### Promblems
-- [N Queens Problem][2024/07/03 Question 1]
-- [N Knight Problem][2024/07/03 Question 2] (Can't find a practice problem, only the description of the problem)
-- [Sudoku Solver][2024/07/04 Question 9]
+
+
 
 ### Branch & Bound
 
+## Part3 : [String , Bitwise , Geometric , Randomized algo]
 
+### String Matching & Pattern Searching
+
+### Bitwise Algorithms
+
+### Geometric Algorithms
+
+### Randomized Algorithms
 
 ### Permutations and Combination 
-- [Friends Pairing Problem][2024/06/29 Question 3]
-- [Subsets][2024/06/29 Question 4]
-- [Permutations on an Array consisting of distinct elements][2024/07/02 Question 1]
-- [Permutations of a given string][2024/07/02 Question 2]
-- [Combination Sum][2024/07/04 Question 5]
-- [Climbing Stairs][2024/07/10 Question 1]
 
 
-### Uncategorized
-- [Burst Balloons][2024/07/04 Question 6]
-- [Bulb Switcher][2024/07/04 Question 7]
-- Climbing Stairs
-- Knapsack problem
-
-
-
-----
-
-
-<!--Links-->
-
-[2024/06/24 Question 1]: https://leetcode.com/problems/binary-tree-level-order-traversal/
-[2024/06/24 Question 2]: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
-<!--[2024/06/24 Question 3]: -->
-[2024/06/24 Question 4]: https://leetcode.com/problems/count-complete-tree-nodes/description/
-[2024/06/24 Question 5]: https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1
-[2024/06/24 Question 6]: https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1
-[2024/06/24 Question 7]: https://leetcode.com/problems/subtree-of-another-tree/
-[2024/06/24 Question 8]: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
-
-[2024/06/25 Question 1]: https://www.geeksforgeeks.org/problems/k-distance-from-root/1 
-[2024/06/25 Question 2]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
-[2024/06/25 Question 3]: https://www.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
-[2024/06/25 Question 4]: https://www.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1
-
-[2024/06/26 Question 1]: https://www.geeksforgeeks.org/problems/transform-to-sum-tree/1
-[2024/06/26 Question 2]: https://leetcode.com/problems/sort-colors/description/
-[2024/06/26 Question 3]: https://leetcode.com/problems/sort-an-array/description/
-[2024/06/26 Question 4]: https://www.geeksforgeeks.org/problems/insertion-sort/1
-[2024/06/26 Question 5]: https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1
-[2024/06/26 Question 6]: https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
-
-[2024/06/27 Question 1]: https://www.geeksforgeeks.org/problems/root-to-leaf-paths/1
-[2024/06/27 Question 2]: https://www.geeksforgeeks.org/problems/mirror-tree/1
-[2024/06/27 Question 3]: https://www.geeksforgeeks.org/problems/print-bst-elements-in-given-range/1
-[2024/06/27 Question 4]: https://www.naukri.com/code360/problems/normal-bst-to-balanced-bst_920472
-
-[2024/06/28 Question 1]: https://www.geeksforgeeks.org/problems/array-to-bst4443/1
-[2024/06/28 Question 2]: https://www.geeksforgeeks.org/problems/largest-bst/1
-[2024/06/28 Question 3]: https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/
-
-[2024/06/29 Question 1]: https://leetcode.com/problems/trapping-rain-water/
-[2024/06/29 Question 2]: https://leetcode.com/problems/spiral-matrix/description/
-[2024/06/29 Question 3]: https://www.geeksforgeeks.org/problems/friends-pairing-problem5425/1
-[2024/06/29 Question 4]: https://leetcode.com/problems/subsets/
-
-[2024/07/02 Question 1]: https://leetcode.com/problems/permutations/description/
-[2024/07/02 Question 2]: https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1
-[2024/07/02 Question 3]: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
-
-[2024/07/03 Question 1]: https://leetcode.com/problems/n-queens/description/
-<!--The following question is not an actual problem link-->
-[2024/07/03 Question 2]: https://mathworld.wolfram.com/KnightsProblem.html
-
-[2024/07/04 Question 1]: https://leetcode.com/problems/container-with-most-water/description/
-[2024/07/04 Question 2]: https://leetcode.com/problems/4sum/
-[2024/07/04 Question 3]: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
-[2024/07/04 Question 4]: https://leetcode.com/problems/3sum/description/
-[2024/07/04 Question 5]: https://leetcode.com/problems/combination-sum/description/
-[2024/07/04 Question 6]: https://leetcode.com/problems/burst-balloons/description/
-[2024/07/04 Question 7]: https://leetcode.com/problems/bulb-switcher/description/
-[2024/07/04 Question 8]: https://leetcode.com/problems/rotate-array/description/
-[2024/07/04 Question 9]: https://leetcode.com/problems/sudoku-solver/description/
-
-[2024/07/05 Question 1]: https://leetcode.com/problems/implement-trie-prefix-tree/description/
-[2024/07/05 Question 2]: https://leetcode.com/problems/word-break/description/
-[2024/07/05 Question 3]: https://leetcode.com/problems/longest-common-prefix/description/
-[2024/07/05 Question 4]: https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/1
-
-<!-- [2024/07/08 Question 1]: 
-[2024/07/08 Question 2]: 
-[2024/07/08 Question 3]:  -->
-
-[2024/07/09 Question 1]: https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/
-[2024/07/09 Question 2]: https://leetcode.com/problems/k-closest-points-to-origin/description/
-[2024/07/09 Question 3]: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
-[2024/07/09 Question 4]: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
-
-[2024/07/10 Question 1]: https://leetcode.com/problems/climbing-stairs/description/
-
-[2024/07/13 Question 1]: https://leetcode.com/problems/merge-intervals/description/
-[2024/07/13 Question 2]: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-[2024/07/13 Question 3]: https://www.geeksforgeeks.org/problems/minimum-swaps/1
-[2024/07/13 Question 4]: https://www.geeksforgeeks.org/problems/phone-directory4628/1
-[2024/07/13 Question 5]: https://www.geeksforgeeks.org/problems/print-anagrams-together/1
-[2024/07/13 Question 6]: https://www.geeksforgeeks.org/problems/rotten-oranges2536/1
-
-[weblink-endexam-reference1]: https://nqueensvisualizerbygsr.netlify.app/
