@@ -1,14 +1,21 @@
 # Language (JAVA) :
-## OOPS
-- Inner/Nested classes (static and not static inner classes) in java
-- Generics
-## JCF (Java Collection Framework)
-- Collection framework classes and interfaces :
-  -   List Interface : Linked list class , Vector class , Stack class
-  -   Queue Interface :
-  -   Set Interface :
-  -   Map Interface : 
-- Arrays and Collections classes and utility functions 
+## [OOPS](./0.10.OOPS/)
+- [Abstract Classes](./0.10.OOPS/1.%20Abstract%20Classes/)
+- [Interfaces](./0.10.OOPS/2.%20Interfaces/)
+- [Nested classes](./0.10.OOPS/03.%20Nested%20Classes/)
+- [Lambda Expressions and Method Referencing](./0.10.OOPS/04.%20Lambda/)
+-[Enums](0.10.OOPS/Enums/)
+## [Generics](./0.12.Generics/)
+## [Collection Framework](./0.13.Collections/)
+- [Lists](./0.13.Collections/List/)
+- [Queue](./0.13.Collections/Queue/)
+- [Set](./0.13.Collections/Set/)
+- [Map](./0.13.Collections/Map/)
+- [Arrays and Collections classes](./0.13.Collections/Utilities/Collections%20&%20Arrays/) 
+- [Comparators and Comparables Interfaces](./0.13.Collections/Utilities/Comparator%20and%20Comparables/)
+- [Cursors](./0.13.Collections/Utilities/cursors/)
+- [util.function](./0.13.Collections/Utilities/Functional%20Interfaces/)
+
 
 ## Strings
 - String , string buffer and String Builder classes and function .
@@ -24,26 +31,58 @@
 ### Input Output & File Handling
 
 
-# DSA
-## Data Structure
 
-### Arrays - Vector - ArrayList 
-- [Trapping Rain Water][2024/06/29 Question 1]
-- [Container with most water][2024/07/04 Question 1]
-- [4Sum][2024/07/04 Question 2]
-- [Largest Rectangle in Histogram][2024/07/04 Question 3]
-- [3Sum][2024/07/04 Question 4]
-- [Rotate Array][2024/07/04 Question 8]
-- [Longest Common Prefix][2024/07/05 Question 3]
-- [K closest points to origin][2024/07/09 Question 2]
-- [Minimum Cost of ropes][2024/07/09 Question 3]
-- [Merge Intervals][2024/07/13 Question 1]
-- [Find Minimum in Rotated Sorted Array][2024/07/13 Question 2]
-- [Minimum Swaps to Sort][2024/07/13 Question 3]
-- Reverse an array
-- Pairs in an array
-- Display the subarray of an array
-
+# Data Structures
+## Part1 : [Arrays ,Strings , Matrices , LL , Stack , Queue , Hashing , Sets , Maps ]
+### Arrays 
+#### Easy
+- [x] [Largest Element in an Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1?) : [Code](./01.Arrays/LargestElement.java) : Easy
+- [x] [Second Largest Element in an Array without sorting](https://www.geeksforgeeks.org/problems/second-largest3735/1) : [Code](./01.Arrays/SecondLargest.java) : Easy
+- [x] [Check if the array is sorted](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/) : [Code](./01.Arrays/CheckSortedAndRotated.java) : Easy
+- [x] [Remove duplicates from Sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) : [Code](./01.Arrays/RemoveDuplicatesInSortedArray.java) : Easy
+- [x] [Left Rotate an array by one place](https://leetcode.com/problems/rotate-array/description/) : [Code](./01.Arrays/ArrayRotation.java) : Easy
+- [x] [Left rotate an array by D places](https://leetcode.com/problems/rotate-array/description/) : [Code](./01.Arrays/ArrayRotation.java) : Medium
+- [x] [Move Zeros to end](https://leetcode.com/problems/move-zeroes/) : [Code](./01.Arrays/MoveZeroes.java) : Easy  <!-- 25-09-2024 -->
+- [x] [Find the Union and intersection of Sorted Arrays](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1) : [Code](./01.Arrays/UnionandIntersectionOfTwoSortedArrays.java) : Medium  <!-- 25-09-2024 -->
+- [x] [Find missing number in an array](https://leetcode.com/problems/missing-number/) : [Code](./01.Arrays/) : Easy <!-- 26-09-2024 -->
+- [ ] [Maximum Consecutive Ones]() : [Code](./01.Arrays/) : Easy
+- [ ] [Find the number that appears once, and other numbers twice.]() : [Code](./01.Arrays/) : Medium
+- [ ] [Longest subarray with given sum K(positives)]() : [Code](./01.Arrays/) : Medium
+- [ ] [Longest subarray with sum K (Positives + Negatives)]() : [Code](./01.Arrays/) : Easy
+#### Medium
+- [x] [Minimum swaps to sort](https://www.geeksforgeeks.org/problems/minimum-swaps/1) : [Code](./01.Arrays/MinimumSwapsToSort.java) : Medium
+- [x] [Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) : [Code](./01.Arrays/MinimumInRotatedSortedArray.java) : Medium
+- [x] [2Sum Problem]() : [Code](./01.Arrays/TwoSum.java) : Medium
+- [x] [Merge Invervals](https://leetcode.com/problems/merge-intervals/description/) : [Code](./01.Arrays/MergeInterval.java) : Medium
+- [ ] [Subsets or powerset ](https://leetcode.com/problems/subsets/description/) : [Code](./01.Arrays/PowerSet.java) : Medium
+- [ ] [Subsequence]() : [Code](./01.Arrays/Subsequences.java) : 
+- [ ] [Sort an array of 0's 1's and 2's]() : [Code](./01.Arrays/) : Medium
+- [ ] [Majority Element (>n/2 times)]() : [Code](./01.Arrays/) : Easy
+- [ ] [Kadane's Algorithm, maximum subarray sum]() : [Code](./01.Arrays/) : Easy
+- [ ] [Print subarray with maximum subarray sum (extended version of above problem)]() : [Code](./01.Arrays/) : Medium
+- [ ] [Stock Buy and Sell]() : [Code](./01.Arrays/) : Easy
+- [ ] [Rearrange the array in alternating positive and negative items]() : [Code](./01.Arrays/) : Medium
+- [ ] [Next Permutation]() : [Code](./01.Arrays/) : Medium
+- [ ] [Leaders in an Array problem]() : [Code](./01.Arrays/) : Easy
+- [ ] [Longest Consecutive Sequence in an Array]() : [Code](./01.Arrays/) : Medium
+- [x] [Set Matrix Zeros]() : [Code](./06.Matrix/SetMatrixZero.java) : Medium
+- [ ] [Rotate Matrix by 90 degrees]() : [Code](./01.Arrays/) : Medium
+- [ ] [Print the matrix in spiral manner]() : [Code](./01.Arrays/) : Medium
+- [ ] [Count subarrays with given sum]() : [Code](./01.Arrays/) : 
+#### Hard
+  
+- [x] [Pascal's Triangle]() : [Code](./01.Arrays/pascalsTriangle.java) : Medium
+- [ ] [Majority Element (n/3 times)]() : [Code](./01.Arrays/) : Medium
+- [ ] [3-Sum Problem]() : [Code](./01.Arrays/) : Medium
+- [ ] [4-Sum Problem]() : [Code](./01.Arrays/) : Hard
+- [ ] [Largest Subarray with 0 Sum]() : [Code](./01.Arrays/) : Medium
+- [ ] [Count number of subarrays with given xor K]() : [Code](./01.Arrays/) : Hard
+- [ ] [Merge Overlapping Subintervals]() : [Code](./01.Arrays/) : Medium
+- [ ] [Merge two sorted arrays without extra space]() : [Code](./01.Arrays/) : Medium
+- [ ] [Find the repeating and missing number]() : [Code](./01.Arrays/) : Hard
+- [ ] [Count Inversions]() : [Code](./01.Arrays/) : Hard
+- [ ] [Reverse Pairs]() : [Code](./01.Arrays/) : Hard
+- [ ] [Maximum Product Subarray]() : [Code](./01.Arrays/) : 
 
 ### Strings 
 
