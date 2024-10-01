@@ -83,18 +83,20 @@ Util.function : Functional Interfaces
 - [x] [Find missing number in an array](https://leetcode.com/problems/missing-number/) : [Code](./01.Arrays/) : Easy <!-- 26-09-2024 -->
 - [x] [Maximum Consecutive Ones]() : [Code](./01.Arrays/MaxConsecutiveOnes.java) : Easy
 - [x] [Find the number that appears once, and other numbers twice.]() : [Code](./01.Arrays/SingleNumber.java) : Medium
-- [ ] [Longest subarray with given sum K(positives)]() : [Code](./01.Arrays/) : Medium
-- [ ] [Longest subarray with sum K (Positives + Negatives)]() : [Code](./01.Arrays/) : Easy
+- [x] [Longest subarray with given sum K(positives)]() : [Code](./01.Arrays/) : Medium
+- [x] [Longest subarray with sum K (Positives + Negatives)]() : [Code](./01.Arrays/) : Easy
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) : [Code](./01.Arrays/BestTimeToBuyAndSellStockI.java) : Easy
 #### Medium
+- [x] [Best Time to Buy and Sell Stock II ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) : [Code](./01.Arrays/BestTimeToBuyAndSellStockII.java) : Medium  
 - [x] [Minimum swaps to sort](https://www.geeksforgeeks.org/problems/minimum-swaps/1) : [Code](./01.Arrays/MinimumSwapsToSort.java) : Medium
 - [x] [Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) : [Code](./01.Arrays/MinimumInRotatedSortedArray.java) : Medium
-- [x] [2Sum Problem]() : [Code](./01.Arrays/TwoSum.java) : Medium
+- [x] [2Sum Problem](https://leetcode.com/problems/two-sum/) : [Code](./01.Arrays/TwoSum.java) : Medium  <!-- 29-09-2024 -->
 - [x] [Merge Invervals](https://leetcode.com/problems/merge-intervals/description/) : [Code](./01.Arrays/MergeInterval.java) : Medium
-- [ ] [Subsets or powerset ](https://leetcode.com/problems/subsets/description/) : [Code](./01.Arrays/PowerSet.java) : Medium
-- [ ] [Subsequence]() : [Code](./01.Arrays/Subsequences.java) : 
-- [ ] [Sort an array of 0's 1's and 2's]() : [Code](./01.Arrays/) : Medium
-- [ ] [Majority Element (>n/2 times)]() : [Code](./01.Arrays/) : Easy
-- [ ] [Kadane's Algorithm, maximum subarray sum]() : [Code](./01.Arrays/) : Easy
+<!-- - [ ] [Subsets or powerset ](https://leetcode.com/problems/subsets/description/) : [Code](./01.Arrays/PowerSet.java) : Medium -->
+<!-- - [ ] [Subsequence]() : [Code](./01.Arrays/Subsequences.java) :  -->
+- [x] [Sort colors || Sort an array of 0's 1's and 2's](https://leetcode.com/problems/sort-colors/description/) : [Code](./01.Arrays/SortColors.java) : Medium
+- [x] [Majority Element (>n/2 times)](https://leetcode.com/problems/majority-element/description/) : [Code](./01.Arrays/MajorityElement.java) : Easy
+- [x] [Kadane's Algorithm||maximum subarray sum](https://leetcode.com/problems/maximum-subarray/description/) : [Code](./01.Arrays/MaximumSubarraySum.java) : Easy
 - [ ] [Print subarray with maximum subarray sum (extended version of above problem)]() : [Code](./01.Arrays/) : Medium
 - [ ] [Stock Buy and Sell]() : [Code](./01.Arrays/) : Easy
 - [ ] [Rearrange the array in alternating positive and negative items]() : [Code](./01.Arrays/) : Medium

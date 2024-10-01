@@ -1,8 +1,8 @@
-
-public class MaximumSubarray {
+// topics : Array , Divide and Conquer , Dynamic Programming
+public class MaximumSubarraySum {
 
     // approach 1  : generate all subarray and then find the sum of each subarray and get the max 
-    public static int maxSubArray(int[] nums) {
+    public static int maxSubArray1(int[] nums) {
 
         // Time Complexity: O(N3), where N = size of the array.
         // Reason: We are using three nested loops, each running approximately N times.
@@ -31,8 +31,9 @@ public class MaximumSubarray {
 
         return max;
     }
+    
     //approach  2 : removing the 3 rd loop
-    public static int maxSubArray0(int[] nums) {
+    public static int maxSubArray2(int[] nums) {
         int maxi = Integer.MIN_VALUE; 
         int n = nums.length;
         for (int i = 0; i < n; i++) {
@@ -47,7 +48,7 @@ public class MaximumSubarray {
     }
 
     //approach 2 : using a single loop with khadane's algo
-    public static int maxSubArray1(int[] nums) {
+    public static int maxSubArray3(int[] nums) {
         int max = Integer.MIN_VALUE; // maximum sum
         int sum = 0;
         int n = nums.length;
@@ -72,9 +73,9 @@ public class MaximumSubarray {
 
 
     public static void main(String[] args) {
-        int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
-
-        System.out.println(maxSubArray(arr));
+        
+        System.out.println(maxSubArray3(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println(maxSubArray3(new int[]{5,4,-1,7,8}));
 
 
     }
