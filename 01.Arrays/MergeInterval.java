@@ -1,8 +1,43 @@
 import java.util.*;
 
 //Solution 
-class Solution {
-    public int[][] merge(int[][] intervals) {
+public class MergeInterval{
+
+
+    public int[][] merge1(int[][] intervals) {
+
+        if (intervals.length <= 1) {
+            return intervals;
+        }
+
+        // Sort the intervals based on the starting times
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+
+        List<int[]> merged = new ArrayList<>();
+        int[] currentInterval = intervals[0];
+        merged.add(currentInterval);
+
+        for (int[] interval : intervals) {
+            int currentEnd = currentInterval[1];
+            int nextStart = interval[0];
+            int nextEnd = interval[1];
+
+            if (currentEnd >= nextStart) {
+                // Merge the intervals
+                currentInterval[1] = Math.max(currentEnd, nextEnd);
+            } else {
+                // No overlap, add the interval to the list
+                currentInterval = interval;
+                merged.add(currentInterval);
+            }
+        }
+
+        return merged.toArray(new int[merged.size()][]);
+    }
+
+
+
+    public static int[][] merge(int[][] intervals) {
 
         if (intervals.length <= 1) {
             return intervals;
@@ -43,27 +78,14 @@ class Solution {
 
         return merged.toArray(new int[merged.size()][]);
     }
-}
 
 
 //Driver Code
-public class MergeInterval{
+
     public static void main(String[] args) {
-
-        int interval[][] = {{1,3},{2,6},{8,10},{15,18}};
-        Solution obj = new Solution();
-        int output[][] = obj.merge(interval);
-
-        for(int i = 0 ; i < output.length ; i++){
-            System.out.print(Arrays.toString(output[i]));
-        }
-
+        System.out.print(Arrays.deepToString(merge(new int[][]{{1,3},{2,6},{8,10},{15,18}})));
+        // output : [1, 6][8, 10][15, 18]
         
         
     }
 }
-
-/*
-output : [1, 6][8, 10][15, 18]
-
- */
