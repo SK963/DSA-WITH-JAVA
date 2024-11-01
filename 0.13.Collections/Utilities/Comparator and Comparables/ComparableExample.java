@@ -1,9 +1,9 @@
 import java.util.*;
 
-//there are three ways of implementing default comparision order of objects 
+//there are two ways of implementing  comparision order of objects 
 //01. implementing comparable interface
-//02. using comparator class default comparators
-//
+//02. using comparator class 
+
 class Teacher implements Comparable<Teacher>
 {
     String name;
