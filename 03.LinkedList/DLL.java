@@ -1,13 +1,14 @@
 import java.util.*;
 
-
 class Node{
 	int data;
 	Node next;
+	Node prev;
 
 	public Node(int data){
 		this.data = data;
 		this.next = null;
+		this.prev = null;
 		
 	}
 }
@@ -25,33 +26,41 @@ class LinkedList{
 
 	//INSERTION
 	void add_first(int data){
+		Node new_node = new Node(data);
 		if(head == null){
-			head = new Node(data);
-			tail = head;
+			head = tail = new_node;
 		}
 		else{
-			Node newNode = new Node(data);
-			newNode.next = head;
-			head = newNode;
+			new_node.next = head;
+			head.prev = new_node;
+			head = new_node;
 		}
 	}
 	
 	void add_last(int data){
+		Node new_node = new Node(data);
 		if(head == null){
-			Node new_node = new Node(data);
-			head = new_node;
-			tail = head;
+			head = tail = new_node;
 		}
 		else{
-			Node new_node = new Node(data);
-			tail.next = new_node;
+			new_node.prev = head;
+			head.next = new_node;
 			tail = new_node;
 		}
 	}
 
+	//Printing the linked list
+	void print(){
+		Node curr = head;
+		while(curr != null){
+			System.out.print(curr.data + " ");
+			curr = curr.next;
+		}
+		System.out.println();
+	
+	}
 
 	//DELETE
-	//remove from first/ front
 	void remove_first(){
 		if(head != null && head.next != null){
 			head = head.next;
@@ -67,7 +76,6 @@ class LinkedList{
 			System.out.println("Empty linked list");
 	}
 
-	// remove from last
 	void remove_last(){
 		Node curr  = head;
 		while(curr.next.next != null){
@@ -75,30 +83,11 @@ class LinkedList{
 		}
 		curr.next = null;
 	}
-
-	//length 
-
-	
-	//search
-
-	
-
-	//Printing the linked list
-	void print(){
-		Node curr = head;
-		while(curr != null){
-			System.out.print(curr.data + " ");
-			curr = curr.next;
-		}
-		System.out.println();
-	
-	}
-
-	
+		
 	
 }
 
-public class Main {
+public class DLL {
 	public static void main(String args[]){
 
 		LinkedList ll = new LinkedList();
@@ -106,11 +95,6 @@ public class Main {
 		ll.add_first(20);  // 20 -> 10
 		ll.add_last(30);   // 20 ->10->30
 		ll.add_last(40);   // 20 ->10->30 ->40
-		ll.print();
-		
-		ll.remove_first();
-		ll.remove_last();
-		
 		ll.print();
 		
 	}

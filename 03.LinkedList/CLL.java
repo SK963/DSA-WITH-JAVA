@@ -47,7 +47,7 @@ class CLL{
 	
 }
 
-public class Main {
+public class Cll {
 
 	public static void main(String args[]){
 
