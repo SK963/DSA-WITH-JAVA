@@ -2,73 +2,6 @@
 <!-- LEETCODE Qs count JAVA :  32 -->
 <!-- GFG Qs count : 25 -->
 <!-- CHEETSHEET COUNT : 46 -->
-# Language (JAVA) :
-## [OOPS](./0.10.OOPS/)
-### [Abstract classes](./0.10.OOPS/1.%20Abstract%20Classes/)
-### [Interfaces](./0.10.OOPS/2.%20Interfaces/)
-### [Nested classes ](./0.10.OOPS/03.%20Nested%20Classes/)
-### [Lambda Expressions and Method Referencing](./0.10.OOPS/04.%20Lambda/)
-### [Enums](./0.10.OOPS/Enums/)
-
-## [Generics](./0.12.Generics/)
-
-## Important Classes
-Wrapper Classes :
-Math Class and its function :
-
-
-## [Collections](./0.13.Collections/) (Java Collection Framework)
-
-### [Lists](./0.13.Collections/List/)
-- [List](./0.13.Collections/List/ListInterfaceExample.java)
-- [ArrayList](./0.13.Collections/List/ArrayListExample.java)
-- [LinkedList](./0.13.Collections/List/LinkedListExample.java)
-- [Vector ](./0.13.Collections/List/VectorExample.java)
-- [Stack](./0.13.Collections/List/StackExample.java)
-### [Queues](./0.13.Collections/Queue/)
-- [Queue](./0.13.Collections/Queue/)
-- [ArrayDeque](./0.13.Collections/Queue/)
-- [PriorityQueue](./0.13.Collections/Queue/)
-- [Linked List](./0.13.Collections/Queue/)
-
-### [Sets](./0.13.Collections/Set/)
-- [Set(I)](./0.13.Collections/Set/SetExample.java)
-- [Hashset(C)](./0.13.Collections/Set/HashSetExample.java)
-- [Navigableset(I)](./0.13.Collections/Set/NavigableSetExample.java)
-- [Sortedset(I)](./0.13.Collections/Set/SortedSetExample.java)
-- [Treeset(C)](./0.13.Collections/Set/TreeSetExample.java)
-
-### [Maps](./0.13.Collections/Map/)
-- Map
-- Hashmap
-- LinkedHashmap
-- Sortedmap
-- Treemap
-- WeakHashmap
-- IdentityHashmap
-- Hashtable
-  - Dictionary class
-  - properties
-### [Enums](./0.13.Collections/Enums/)
-- Enum
-- EnumSet
-- EnumMap
-
-### [Utilities](./0.13.Collections/Utilities/)
-Arrays
-Collections 
-Comparators and Comparables Interfaces
-Util.function : Functional Interfaces
-
-## Advance Java
-### Date and Time Classes
-- [ ] [Date Class]() : [Code](./0.14.Date%20and%20Time/)
-- [ ] []() : [Code](./0.14.Date%20and%20Time/)
-### MultiThreading
-### Exception Handling
-### Input Output & File Handling
-
-# STRIVER AtoZ DSA PRACTICE SHEET : [LINK](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) :
 
 # Data Structures
 ## Part1 : [Arrays ,Strings , Matrices , LL , Stack , Queue , Hashing , Sets , Maps ]
@@ -126,9 +59,6 @@ Util.function : Functional Interfaces
 - [ ] [Generate all subsets]
 - [ ] [Subsets or powerset ](https://leetcode.com/problems/subsets/description/) : [Code](./01.Arrays/) : Medium
 - [ ] [Subsequence]() : [Code](./01.Arrays/) : 
-
-
-
  -->
 
 
@@ -158,6 +88,7 @@ Util.function : Functional Interfaces
 - [x] [Longest Palindromic Substring[Do it without DP]](https://leetcode.com/problems/longest-palindromic-substring/description/) : [Code](./05.Strings/LongestPalindromicSubstring.java) : Medium  <!--08-11-2024  -->
 - [ ] [Sum of Beauty of all substring]() : [Code](./05.Strings/) : Medium
 - [ ] [Reverse Every Word in A String]() : [Code](./05.Strings/) : Easy
+
 
 #### Hard
 - [ ] [Minimum number of bracket reversals needed to make an expression balanced ]() : [Code](./05.Strings/) : Medium
@@ -204,7 +135,7 @@ Medium : SLL
 - [x] [Find the intersection point of Y LL](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) : [Code](./03.LinkedList/) : Medium
 - [x] [Add 1 to a number represented by LL](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1?) : [Code](./03.LinkedList/SLL/Add1toaLinkedListNumber.java) : Medium
 - [x] [Add 2 numbers in LL](https://leetcode.com/problems/add-two-numbers/description/) : [Code](./03.LinkedList/SLL/AddTwoNumbers.java) : Medium
-- [ ] [Cycle in LL](https://leetcode.com/problems/linked-list-cycle-ii/description/) : [Code](./03.LinkedList/SLL/) : Medium
+- [x] [Cycle in LL](https://leetcode.com/problems/linked-list-cycle-ii/description/) : [Code](./03.LinkedList/SLL/LinkedListCycleII.java) : Medium
 
 
 Hard SLL
@@ -387,12 +318,12 @@ Hard
 - [ ] [BFS]() : [Code](./08.Graph/) : Medium
 - [ ] [DFS]() : [Code](./08.Graph/) : Hard
 #### BFS/DFS Problems
-- [ ] [Number of provinces (leetcode)]() : [Code](./08.Graph/) : Medium
+- [x] [Number of provinces (leetcode)](https://leetcode.com/problems/number-of-provinces/) : [Code](./08.Graph/01-bfs-dfs/NumberOfProvinces.java) : Medium
 - [ ] [Connected Components Problem in Matrix]() : [Code](./08.Graph/) : Hard
-- [ ] [Rotten Oranges]() : [Code](./08.Graph/) : Medium
-- [ ] [Flood fill]() : [Code](./08.Graph/) : Hard
-- [ ] [Cycle Detection in unirected Graph (bfs)]() : [Code](./08.Graph/) : Hard
-- [ ] [Cycle Detection in undirected Graph (dfs)]() : [Code](./08.Graph/) : Hard
+- [x] [Rotten Oranges](https://leetcode.com/problems/rotting-oranges/) : [Code](./08.Graph/) : Medium
+- [x] [Flood fill](https://leetcode.com/problems/flood-fill) : [Code](./08.Graph/) : Hard
+- [x] [Cycle Detection in unirected Graph (bfs)](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) : [Code](./08.Graph/01-bfs-dfs/ConnectedComponentsInAnUndirectedGraph.java) : Hard
+- [x] [Cycle Detection in undirected Graph (dfs)](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) : [Code](./08.Graph/01-bfs-dfs/ConnectedComponentsInAnUndirectedGraph.java) : Hard
 - [ ] [0/1 Matrix (Bfs Problem)]() : [Code](./08.Graph/) : Medium
 - [ ] [Surrounded Regions (dfs)]() : [Code](./08.Graph/) : Hard
 - [ ] [Number of Enclaves [flood fill implementation - multisource]]() : [Code](./08.Graph/) : Hard
@@ -440,7 +371,7 @@ Hard
 
 #### Problems
 
-## Part 3 : [Trie , Suffix array , Segement Tree , Others]
+## Part 3 : [Trie , Suffix array , Segement Tree , Disjoint Set , Others]
 ### Trie / Prefix Array
 - [ ] [Implement TRIE | INSERT | SEARCH | STARTSWITH]() : [Code](./09.Trie/) : Hard
 - [ ] [Implement Trie - 2 (Prefix Tree)]() : [Code](./09.Trie/) : Hard
@@ -454,6 +385,10 @@ Hard
 
 ### Segment Tree -->
 
+
+### Disjoint Set 
+- [x] [Representation | Union and find](https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1) : [Code](./20.Disjoint-Set/DisjointSet.java) : Easy
+- [ ] []
 
 
 
